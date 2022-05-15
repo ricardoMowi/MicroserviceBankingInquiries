@@ -1,5 +1,9 @@
 package com.nttdata.bankingInquiries.repository;
 
-public class TransactionRepository {
+import com.nttdata.bankingInquiries.entity.Transaction;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface TransactionRepository extends MongoRepository <Transaction, String> {
     
 }
