@@ -1,13 +1,9 @@
 package com.nttdata.bankingInquiries.controller;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 
-import com.nttdata.bankingInquiries.entity.Client;
 import com.nttdata.bankingInquiries.entity.Product;
-import com.nttdata.bankingInquiries.repository.ClientRepository;
 import com.nttdata.bankingInquiries.repository.ProductRepository;
 import com.nttdata.bankingInquiries.service.ProductService;
 
@@ -20,7 +16,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import lombok.extern.slf4j.Slf4j;
