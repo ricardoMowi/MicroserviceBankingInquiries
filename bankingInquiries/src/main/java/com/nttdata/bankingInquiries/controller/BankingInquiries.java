@@ -90,8 +90,7 @@ public class BankingInquiries {
     }
 
     //Para un cliente se debe generar un resumen con los saldos promedio diarios del mes en curso de todos los productos de crédito o cuentas bancarias que posee.
-    @GetMapping("/GetCommissionReport")
-    //@RequestMapping(path = "/GetCommissionReport", method = RequestMethod.GET)
+    @GetMapping("/GetProductReport")
     @ResponseBody
     public ResponseEntity<Map<String, Object>> GetProductReport(@RequestParam String id){
         log.info("entrada GetProductReport");
