@@ -26,6 +26,7 @@ public class Product {
     private Date creationDate;
     private String transactionDate; 
     private int maximumTransactionLimit;
+    private int numberOfFreeTransactions;
     private Double maintenanceCommission;
     private Double amount;
     private String productType;

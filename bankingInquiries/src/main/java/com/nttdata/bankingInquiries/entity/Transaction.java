@@ -24,6 +24,9 @@ public class Transaction {
     private Date registerDate;
     private String idProduct;
     private Double amount;
+    private Double transactionCommission;
+    private boolean flagWithCommission;
+    private String idDestinationAccount;
     private String transactionType;
     private String status;
 }
